@@ -7,11 +7,10 @@ class Rectangle(Figure):
             raise ValueError("Sides cant be less than 0")
         self.side_a = side_a
         self.side_b = side_b
-        self._index = 0.1
 
     @property
     def get_area(self):
-        return self.side_a * self.side_b * self._index
+        return self.side_a * self.side_b
 
     @property
     def get_perimeter(self):

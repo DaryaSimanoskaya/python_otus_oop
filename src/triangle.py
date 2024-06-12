@@ -1,4 +1,3 @@
-from src.circle import Circle
 from src.figure import Figure
 
 
